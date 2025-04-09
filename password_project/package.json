@@ -15,5 +15,12 @@
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
 		"svelte": "^5.0.0",
 		"vite": "^6.2.5"
+	},
+	"dependencies": {
+		"@zxcvbn-ts/core": "^3.0.4",
+		"cors": "^2.8.5",
+		"express": "^5.1.0",
+		"mysql2": "^3.14.0",
+		"zxcvbn": "^4.4.2"
 	}
 }
