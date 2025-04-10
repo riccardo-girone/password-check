@@ -45,7 +45,8 @@
 </script>
 
 <div class="password-check">
-	<label><strong>Inserisci la tua password:</strong></label><br />
+	<label class="title">Inserisci la tua password:</label>
+	<br />
 	<input
 		type="password"
 		bind:value={password}
@@ -83,6 +84,7 @@
 		background: #ffffff;
 		padding: 2rem;
 		border-radius: 8px;
+		border: 1px solid #e0e7ff;
 		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 	}
 
@@ -98,14 +100,18 @@
 	}
 
 	.input:focus {
-		border-color: #4caf50;
+		border-color: #4c51bf;
 		outline: none;
+	}
+
+	.title {
+		margin-bottom: 1rem;
 	}
 
 	.button {
 		width: 100%;
 		padding: 0.8rem;
-		background-color: #4caf50;
+		background-color: #484db0;
 		color: white;
 		border: none;
 		border-radius: 8px;
@@ -115,7 +121,7 @@
 	}
 
 	.button:hover {
-		background-color: #45a049;
+		background-color: #484c97;
 	}
 
 	.result {

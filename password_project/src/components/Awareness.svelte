@@ -55,11 +55,6 @@
 		margin-top: 1rem;
 		border: 1px solid #e0e7ff;
 		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-		transition: transform 0.3s ease-in-out;
-	}
-
-	.awareness:hover {
-		transform: scale(1.02);
 	}
 
 	.awareness h2 {
